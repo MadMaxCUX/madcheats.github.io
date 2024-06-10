@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (event) => {
+window.addEventListener("load", () => {
     const videoElement = document.getElementById("background-video");
     if (videoElement) {
       videoElement.muted = false; // Ensure the video is unmuted
