@@ -24,22 +24,7 @@
       <a href="https://instagram.com/madmaxcux" target="_blank">Instagram</a>
     </div>
   </div>
-  <script>
-    window.addEventListener("load", () => {
-      const videoElement = document.getElementById("background-video");
-      if (videoElement) {
-        videoElement.muted = false; // Ensure the video is unmuted
-        videoElement.play()
-          .then(() => {
-            console.log("Video is playing with sound");
-          })
-          .catch((error) => {
-            console.error("Error attempting to play video with sound:", error);
-          });
-      } else {
-        console.error("Video element not found");
-      }
-    });
-  </script>
+  <button id="play-button">Play with Sound</button>
+  <script src="script.js"></script>
 </body>
 </html>
