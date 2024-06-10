@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     const videoElement = document.getElementById("background-video");
     if (videoElement) {
-      videoElement.muted = true; // Start with the video muted
+      videoElement.muted = false; // Start with the video muted
       videoElement
         .play()
         .then(() => {
